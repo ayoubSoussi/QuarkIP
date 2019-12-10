@@ -1,0 +1,1 @@
+-wto "de716fec99bd4178bb9fd88f7dfa3000" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "quark_initialize_behav" "xil_defaultlib.quark_initialize" -log "elaborate.log" 
