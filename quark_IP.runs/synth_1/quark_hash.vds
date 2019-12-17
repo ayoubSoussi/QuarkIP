@@ -2,8 +2,8 @@
 # Vivado v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Tue Dec 10 11:10:43 2019
-# Process ID: 7935
+# Start of session at: Tue Dec 17 19:36:29 2019
+# Process ID: 9743
 # Current directory: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.runs/synth_1
 # Command line: vivado -log quark_hash.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source quark_hash.tcl
 # Log file: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.runs/synth_1/quark_hash.vds
@@ -15,12 +15,11 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7941 
+INFO: Helper process launched with PID 9785 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1172.922 ; gain = 75.992 ; free physical = 12691 ; free virtual = 24029
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1172.180 ; gain = 75.992 ; free physical = 398 ; free virtual = 12596
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-2048] function log2ceil does not always return a value [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:75]
-INFO: [Synth 8-638] synthesizing module 'quark_hash' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'quark_hash' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:52]
 	Parameter message_length bound to: 0 - type: integer 
 	Parameter key_length bound to: 100 - type: integer 
 	Parameter s_Interface bound to: 256 - type: integer 
@@ -30,39 +29,41 @@ INFO: [Synth 8-638] synthesizing module 'quark_hash' [/tp/xph3seo/xph3seo506/qua
 WARNING: [Synth 8-506] null port 'message_data' ignored [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:46]
 	Parameter rate bound to: 32 - type: integer 
 	Parameter message_length bound to: 0 - type: integer 
-WARNING: [Synth 8-506] null port 'message' ignored [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:84]
-INFO: [Synth 8-3491] module 'quark_initialize' declared at '/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:34' bound to instance 'initialization' of component 'quark_initialize' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:127]
+WARNING: [Synth 8-506] null port 'message' ignored [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:74]
+INFO: [Synth 8-3491] module 'quark_initialize' declared at '/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:34' bound to instance 'initialization' of component 'quark_initialize' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:112]
 INFO: [Synth 8-638] synthesizing module 'quark_initialize' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:47]
 	Parameter rate bound to: 32 - type: integer 
 	Parameter message_length bound to: 0 - type: integer 
 WARNING: [Synth 8-506] null port 'message' ignored [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'quark_initialize' (1#1) [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:47]
-WARNING: [Synth 8-6014] Unused sequential element internal_state_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:138]
-WARNING: [Synth 8-6014] Unused sequential element internal_state_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:139]
-INFO: [Synth 8-256] done synthesizing module 'quark_hash' (2#1) [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'quark_hash' (2#1) [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:52]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1217.422 ; gain = 120.492 ; free physical = 12690 ; free virtual = 24029
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1281.680 ; gain = 185.492 ; free physical = 379 ; free virtual = 12577
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1217.422 ; gain = 120.492 ; free physical = 12693 ; free virtual = 24032
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1281.680 ; gain = 185.492 ; free physical = 387 ; free virtual = 12586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1224.426 ; gain = 127.496 ; free physical = 12693 ; free virtual = 24032
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1288.684 ; gain = 192.496 ; free physical = 387 ; free virtual = 12586
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-5546] ROM "new_message61" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cmp" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-3936] Found unconnected internal register 'L_reg' and it is trimmed from '10' to '9' bits. [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:141]
-WARNING: [Synth 8-6014] Unused sequential element compteur_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:136]
+INFO: [Synth 8-5545] ROM "compteur_permute1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "permuted_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element compteur_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:155]
+WARNING: [Synth 8-6014] Unused sequential element compteur_squeeze_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:158]
 WARNING: [Synth 8-327] inferring latch for variable 'new_message_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:58]
 WARNING: [Synth 8-327] inferring latch for variable 'cmp_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/new/quark_initialize.vhd:60]
-WARNING: [Synth 8-327] inferring latch for variable 'hashed_value_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:159]
+WARNING: [Synth 8-327] inferring latch for variable 'next_Y_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:142]
+WARNING: [Synth 8-327] inferring latch for variable 'next_X_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:141]
+WARNING: [Synth 8-327] inferring latch for variable 'next_L_reg' [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:143]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1366.879 ; gain = 269.949 ; free physical = 12519 ; free virtual = 23863
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1363.785 ; gain = 267.598 ; free physical = 229 ; free virtual = 12428
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -76,20 +77,30 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 2     
-	   2 Input     31 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
 +---XORs : 
-	  24 Input      1 Bit         XORs := 1     
-	   2 Input      1 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 1     
 	  22 Input      1 Bit         XORs := 1     
 	  23 Input      1 Bit         XORs := 1     
+	  24 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
-	              128 Bit    Registers := 2     
-	                9 Bit    Registers := 1     
+	              256 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Multipliers : 
+	                12x32  Multipliers := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 128   
-	   2 Input     31 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 529   
+	   2 Input    256 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 131   
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 531   
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -100,19 +111,30 @@ Hierarchical RTL Component report
 Module quark_hash 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   2 Input     31 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
 +---XORs : 
-	  24 Input      1 Bit         XORs := 1     
-	   2 Input      1 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 1     
 	  22 Input      1 Bit         XORs := 1     
 	  23 Input      1 Bit         XORs := 1     
+	  24 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
-	              128 Bit    Registers := 2     
-	                9 Bit    Registers := 1     
+	              256 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Multipliers : 
+	                12x32  Multipliers := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 1     
-	   2 Input     31 Bit        Muxes := 1     
+	   2 Input    256 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
 Module quark_initialize 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -138,110 +160,60 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "new_message61" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cmp" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-3936] Found unconnected internal register 'L_reg' and it is trimmed from '9' to '8' bits. [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:141]
-WARNING: [Synth 8-6014] Unused sequential element compteur_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:136]
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[0]' (LD) to 'hashed_value_reg[1]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[1]' (LD) to 'hashed_value_reg[2]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[2]' (LD) to 'hashed_value_reg[3]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[3]' (LD) to 'hashed_value_reg[4]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[4]' (LD) to 'hashed_value_reg[5]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[5]' (LD) to 'hashed_value_reg[6]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[6]' (LD) to 'hashed_value_reg[7]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[7]' (LD) to 'hashed_value_reg[8]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[8]' (LD) to 'hashed_value_reg[9]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[9]' (LD) to 'hashed_value_reg[10]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[10]' (LD) to 'hashed_value_reg[11]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[11]' (LD) to 'hashed_value_reg[12]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[12]' (LD) to 'hashed_value_reg[13]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[13]' (LD) to 'hashed_value_reg[14]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[14]' (LD) to 'hashed_value_reg[15]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[15]' (LD) to 'hashed_value_reg[16]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[16]' (LD) to 'hashed_value_reg[17]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[17]' (LD) to 'hashed_value_reg[18]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[18]' (LD) to 'hashed_value_reg[19]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[19]' (LD) to 'hashed_value_reg[20]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[20]' (LD) to 'hashed_value_reg[21]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[21]' (LD) to 'hashed_value_reg[22]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[22]' (LD) to 'hashed_value_reg[23]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[23]' (LD) to 'hashed_value_reg[24]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[24]' (LD) to 'hashed_value_reg[25]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[25]' (LD) to 'hashed_value_reg[26]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[26]' (LD) to 'hashed_value_reg[27]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[27]' (LD) to 'hashed_value_reg[28]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[28]' (LD) to 'hashed_value_reg[29]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[29]' (LD) to 'hashed_value_reg[30]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[30]' (LD) to 'hashed_value_reg[31]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[31]' (LD) to 'hashed_value_reg[32]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[32]' (LD) to 'hashed_value_reg[33]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[33]' (LD) to 'hashed_value_reg[34]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[34]' (LD) to 'hashed_value_reg[35]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[35]' (LD) to 'hashed_value_reg[36]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[36]' (LD) to 'hashed_value_reg[37]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[37]' (LD) to 'hashed_value_reg[38]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[38]' (LD) to 'hashed_value_reg[39]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[39]' (LD) to 'hashed_value_reg[40]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[40]' (LD) to 'hashed_value_reg[41]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[41]' (LD) to 'hashed_value_reg[42]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[42]' (LD) to 'hashed_value_reg[43]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[43]' (LD) to 'hashed_value_reg[44]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[44]' (LD) to 'hashed_value_reg[45]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[45]' (LD) to 'hashed_value_reg[46]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[46]' (LD) to 'hashed_value_reg[47]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[47]' (LD) to 'hashed_value_reg[48]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[48]' (LD) to 'hashed_value_reg[49]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[49]' (LD) to 'hashed_value_reg[50]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[50]' (LD) to 'hashed_value_reg[51]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[51]' (LD) to 'hashed_value_reg[52]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[52]' (LD) to 'hashed_value_reg[53]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[53]' (LD) to 'hashed_value_reg[54]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[54]' (LD) to 'hashed_value_reg[55]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[55]' (LD) to 'hashed_value_reg[56]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[56]' (LD) to 'hashed_value_reg[57]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[57]' (LD) to 'hashed_value_reg[58]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[58]' (LD) to 'hashed_value_reg[59]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[59]' (LD) to 'hashed_value_reg[60]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[60]' (LD) to 'hashed_value_reg[61]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[61]' (LD) to 'hashed_value_reg[62]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[62]' (LD) to 'hashed_value_reg[63]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[63]' (LD) to 'hashed_value_reg[64]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[64]' (LD) to 'hashed_value_reg[65]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[65]' (LD) to 'hashed_value_reg[66]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[66]' (LD) to 'hashed_value_reg[67]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[67]' (LD) to 'hashed_value_reg[68]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[68]' (LD) to 'hashed_value_reg[69]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[69]' (LD) to 'hashed_value_reg[70]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[70]' (LD) to 'hashed_value_reg[71]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[71]' (LD) to 'hashed_value_reg[72]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[72]' (LD) to 'hashed_value_reg[73]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[73]' (LD) to 'hashed_value_reg[74]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[74]' (LD) to 'hashed_value_reg[75]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[75]' (LD) to 'hashed_value_reg[76]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[76]' (LD) to 'hashed_value_reg[77]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[77]' (LD) to 'hashed_value_reg[78]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[78]' (LD) to 'hashed_value_reg[79]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[79]' (LD) to 'hashed_value_reg[80]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[80]' (LD) to 'hashed_value_reg[81]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[81]' (LD) to 'hashed_value_reg[82]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[82]' (LD) to 'hashed_value_reg[83]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[83]' (LD) to 'hashed_value_reg[84]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[84]' (LD) to 'hashed_value_reg[85]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[85]' (LD) to 'hashed_value_reg[86]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[86]' (LD) to 'hashed_value_reg[87]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[87]' (LD) to 'hashed_value_reg[88]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[88]' (LD) to 'hashed_value_reg[89]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[89]' (LD) to 'hashed_value_reg[90]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[90]' (LD) to 'hashed_value_reg[91]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[91]' (LD) to 'hashed_value_reg[92]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[92]' (LD) to 'hashed_value_reg[93]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[93]' (LD) to 'hashed_value_reg[94]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[94]' (LD) to 'hashed_value_reg[95]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[95]' (LD) to 'hashed_value_reg[96]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[96]' (LD) to 'hashed_value_reg[97]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[97]' (LD) to 'hashed_value_reg[98]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[98]' (LD) to 'hashed_value_reg[99]'
-INFO: [Synth 8-3886] merging instance 'hashed_value_reg[99]' (LD) to 'hashed_value_reg[100]'
-INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hashed_value_reg[255] )
+INFO: [Synth 8-5545] ROM "compteur_permute1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element compteur_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:155]
+WARNING: [Synth 8-6014] Unused sequential element compteur_squeeze_reg was removed.  [/tp/xph3seo/xph3seo506/quark_IP/quark_IP.srcs/sources_1/imports/new/quark_hash.vhd:158]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (initialization/\new_message_reg[1] )
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[12]' (FDC) to 'compteur_permute_reg[13]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[13]' (FDC) to 'compteur_permute_reg[14]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[14]' (FDC) to 'compteur_permute_reg[15]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[15]' (FDC) to 'compteur_permute_reg[16]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[16]' (FDC) to 'compteur_permute_reg[17]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[17]' (FDC) to 'compteur_permute_reg[18]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[18]' (FDC) to 'compteur_permute_reg[19]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[19]' (FDC) to 'compteur_permute_reg[20]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[20]' (FDC) to 'compteur_permute_reg[21]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[21]' (FDC) to 'compteur_permute_reg[22]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[22]' (FDC) to 'compteur_permute_reg[23]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[23]' (FDC) to 'compteur_permute_reg[24]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[24]' (FDC) to 'compteur_permute_reg[25]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[25]' (FDC) to 'compteur_permute_reg[26]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[26]' (FDC) to 'compteur_permute_reg[27]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[27]' (FDC) to 'compteur_permute_reg[28]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[28]' (FDC) to 'compteur_permute_reg[29]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[29]' (FDC) to 'compteur_permute_reg[30]'
+INFO: [Synth 8-3886] merging instance 'compteur_permute_reg[30]' (FDC) to 'compteur_permute_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\compteur_permute_reg[31] )
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[31]) is unused and will be removed from module quark_initialize.
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[30]) is unused and will be removed from module quark_initialize.
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[29]) is unused and will be removed from module quark_initialize.
@@ -274,13 +246,40 @@ WARNING: [Synth 8-3332] Sequential element (new_message_reg[3]) is unused and wi
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[2]) is unused and will be removed from module quark_initialize.
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[1]) is unused and will be removed from module quark_initialize.
 WARNING: [Synth 8-3332] Sequential element (new_message_reg[0]) is unused and will be removed from module quark_initialize.
-WARNING: [Synth 8-3332] Sequential element (hashed_value_reg[255]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (L_reg[7]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (L_reg[6]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (L_reg[5]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (L_reg[4]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_permute_reg[31]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[31]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[30]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[29]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[28]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[27]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[26]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[25]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[24]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[23]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[22]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[21]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[20]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[19]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[18]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[17]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[16]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[15]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[14]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[13]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[12]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[11]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[10]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[9]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[8]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[7]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[6]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[5]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[4]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[3]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[2]) is unused and will be removed from module quark_hash.
+WARNING: [Synth 8-3332] Sequential element (compteur_block_reg[1]) is unused and will be removed from module quark_hash.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.895 ; gain = 292.965 ; free physical = 12498 ; free virtual = 23836
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:36 . Memory (MB): peak = 1425.824 ; gain = 329.637 ; free physical = 183 ; free virtual = 12382
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -293,7 +292,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23836
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 185 ; free virtual = 12384
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -304,72 +303,8 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[31]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[30]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[29]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[28]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[27]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[26]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[25]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[24]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[23]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[22]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[21]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[20]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[19]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[18]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[17]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[16]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[15]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[14]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[13]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[12]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[11]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[10]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[9]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[8]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[7]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[6]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[5]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[4]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[3]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[2]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[1]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (initialization/cmp_reg[0]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[127]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[126]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[125]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[124]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[123]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[122]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[121]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[120]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[119]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[118]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[117]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[116]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[115]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[114]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[113]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[112]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[111]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[110]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[109]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[108]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[107]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[106]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[105]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[104]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[103]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[102]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[101]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[100]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[99]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[98]) is unused and will be removed from module quark_hash.
-WARNING: [Synth 8-3332] Sequential element (Y_reg[97]) is unused and will be removed from module quark_hash.
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:38 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 183 ; free virtual = 12382
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -393,7 +328,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -406,7 +341,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -418,25 +353,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -449,33 +384,53 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |OBUF |   512|
-+------+-----+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |   203|
+|3     |LUT1   |   294|
+|4     |LUT2   |   139|
+|5     |LUT3   |   520|
+|6     |LUT4   |   154|
+|7     |LUT5   |   432|
+|8     |LUT6   |   244|
+|9     |FDCE   |   464|
+|10    |FDPE   |   137|
+|11    |FDRE   |   256|
+|12    |LD     |   288|
+|13    |LDP    |    10|
+|14    |IBUF   |     2|
+|15    |OBUF   |   256|
++------+-------+------+
 
 Report Instance Areas: 
-+------+---------+-------+------+
-|      |Instance |Module |Cells |
-+------+---------+-------+------+
-|1     |top      |       |   512|
-+------+---------+-------+------+
++------+-----------------+-----------------+------+
+|      |Instance         |Module           |Cells |
++------+-----------------+-----------------+------+
+|1     |top              |                 |  3402|
+|2     |  initialization |quark_initialize |   316|
++------+-----------------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12498 ; free virtual = 23837
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 182 ; free virtual = 12381
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 374 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.898 ; gain = 292.969 ; free physical = 12500 ; free virtual = 23839
-Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1389.902 ; gain = 292.969 ; free physical = 12501 ; free virtual = 23840
+Synthesis finished with 0 errors, 0 critical warnings and 76 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1425.828 ; gain = 329.641 ; free physical = 184 ; free virtual = 12383
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1425.832 ; gain = 329.641 ; free physical = 184 ; free virtual = 12383
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 503 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'quark_hash' is not ideal for floorplanning, since the cellview 'quark_hash' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 298 instances were transformed.
+  LD => LDCE: 288 instances
+  LDP => LDPE: 10 instances
 
-118 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+71 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1492.262 ; gain = 407.922 ; free physical = 12458 ; free virtual = 23797
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:43 . Memory (MB): peak = 1499.145 ; gain = 415.547 ; free physical = 208 ; free virtual = 12354
 INFO: [Common 17-1381] The checkpoint '/tp/xph3seo/xph3seo506/quark_IP/quark_IP.runs/synth_1/quark_hash.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1517.277 ; gain = 0.000 ; free physical = 12458 ; free virtual = 23797
-INFO: [Common 17-206] Exiting Vivado at Tue Dec 10 11:11:05 2019...
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1524.156 ; gain = 0.000 ; free physical = 213 ; free virtual = 12356
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 17 19:37:27 2019...

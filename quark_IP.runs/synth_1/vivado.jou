@@ -2,8 +2,8 @@
 # Vivado v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Tue Dec 10 11:10:43 2019
-# Process ID: 7935
+# Start of session at: Tue Dec 17 19:36:29 2019
+# Process ID: 9743
 # Current directory: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.runs/synth_1
 # Command line: vivado -log quark_hash.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source quark_hash.tcl
 # Log file: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.runs/synth_1/quark_hash.vds

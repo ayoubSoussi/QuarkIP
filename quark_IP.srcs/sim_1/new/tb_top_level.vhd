@@ -19,8 +19,7 @@ architecture tb of tb_top_level is
               rstn         : in std_logic;
               --key_data     : in std_logic_vector (s_interface-1 downto 0);
               message_data : in std_logic_vector (message_length-1 downto 0);
-              hashed_value : out std_logic_vector (state_length-1 downto 0);
-              state : out std_logic_vector(state_length-1 downto 0));
+              hashed_value : out std_logic_vector (s_Interface-1 downto 0));
     end component;
 
     signal clk          : std_logic;
@@ -28,7 +27,6 @@ architecture tb of tb_top_level is
     --signal key_data     : std_logic_vector (s_interface-1 downto 0);
     signal message_data : std_logic_vector (-1 downto 0);
     signal hashed_value : std_logic_vector (256-1 downto 0);
-    signal state : std_logic_vector (255 downto 0);
     
     constant TbPeriod : time := 1000 ns; -- EDIT Put right period here
     signal TbClock : std_logic := '0';
@@ -41,8 +39,7 @@ begin
               rstn         => rstn,
               --key_data     => key_data,
               message_data => message_data,
-              hashed_value => hashed_value,
-              state => state
+              hashed_value => hashed_value
               );
 
     -- Clock generation

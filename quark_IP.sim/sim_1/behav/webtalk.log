@@ -2,12 +2,12 @@
 # Webtalk v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Tue Dec 10 11:11:30 2019
-# Process ID: 8097
+# Start of session at: Tue Dec 17 17:45:03 2019
+# Process ID: 32123
 # Current directory: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.sim/sim_1/behav
 # Command line: wbtcv -mode batch -source /tp/xph3seo/xph3seo506/quark_IP/quark_IP.sim/sim_1/behav/xsim.dir/tb_top_level_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.sim/sim_1/behav/webtalk.log
 # Journal file: /tp/xph3seo/xph3seo506/quark_IP/quark_IP.sim/sim_1/behav/webtalk.jou
 #-----------------------------------------------------------
 source /tp/xph3seo/xph3seo506/quark_IP/quark_IP.sim/sim_1/behav/xsim.dir/tb_top_level_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Tue Dec 10 11:11:30 2019...
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 17 17:45:04 2019...
