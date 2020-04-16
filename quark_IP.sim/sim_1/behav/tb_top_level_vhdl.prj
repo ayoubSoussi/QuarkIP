@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  "../../../quark_IP.srcs/sources_1/imports/new/quark_hash.vhd"
-vhdl xil_defaultlib  "../../../quark_IP.srcs/sources_1/new/quark_initialize.vhd"
-vhdl xil_defaultlib  "../../../quark_IP.srcs/sim_1/new/tb_top_level.vhd"
-
-# Do not sort compile order
-nosort

@@ -1,7 +1,0 @@
-Running: xsim.dir/quark_initialize_behav/xsimk -simmode gui -wdb quark_initialize_behav.wdb -simrunnum 0 -socket 52879
-Design successfully loaded
-Design Loading Memory Usage: 40764 KB (Peak: 40764 KB)
-Design Loading CPU Usage: 20 ms
-Simulation completed
-Simulation Memory Usage: 56968 KB (Peak: 56968 KB)
-Simulation CPU Usage: 20 ms
